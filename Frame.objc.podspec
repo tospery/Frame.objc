@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Frame.objc'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of Frame.objc.'
+  s.summary          = 'iOS App Framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+						iOS App Framework using ObjC.
                        DESC
 
   s.homepage         = 'https://github.com/tospery/Frame.objc'
@@ -32,11 +32,23 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Frame.objc/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Frame.objc' => ['Frame.objc/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Frame.objc' => ['Frame.objc/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'QMUIKit/QMUICore', '4.3.0'
+  s.dependency 'CocoaLumberjack', '3.7.2'
+  s.dependency 'RESTful', '1.0.0'
+  s.dependency 'JLRoutes', '2.1'
+  s.dependency 'SDWebImage', '5.12.1'
+  s.dependency 'MJRefresh', '3.7.2'
+  s.dependency 'FCUUID', '1.3.1'
+  s.dependency 'PINCache', '3.0.3'
+  s.dependency 'GVUserDefaults', '1.0.2'
+  s.dependency 'Toast', '4.0.0'
+  s.dependency 'TYAlertController', '1.2.0'
+  s.dependency 'DZNEmptyDataSet', '1.8.1'
+  s.dependency 'DKNightVersion', '2.4.3'
+  # s.dependency 'WebViewJavascriptBridge', '6.0.3'
 end
