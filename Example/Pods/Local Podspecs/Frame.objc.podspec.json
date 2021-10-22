@@ -1,0 +1,22 @@
+{
+  "name": "Frame.objc",
+  "version": "0.1.0",
+  "summary": "A short description of Frame.objc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangjianxiang/Frame.objc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangjianxiang": "yangjianxiang@xunyou.com"
+  },
+  "source": {
+    "git": "https://github.com/yangjianxiang/Frame.objc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Frame.objc/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Frame.objc (0.1.0)
+
+DEPENDENCIES:
+  - Frame.objc (from `../`)
+
+EXTERNAL SOURCES:
+  Frame.objc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Frame.objc: 9f672dc2b9f9958ee2990e1ca77687e70b794e13
+
+PODFILE CHECKSUM: f4c013c4edbaf3f97c405105efc17096eb0e22b2
+
+COCOAPODS: 1.10.1
